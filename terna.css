@@ -1,0 +1,47 @@
+hr :nth-of-type(1){
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+img{
+   /* width: auto; */
+}
+
+.imagepadding{
+    padding-top: 100px;
+    /* height: fit-content; */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+}
+
+marquee {
+    background-color: #f9fcd2;
+    text-align: center;
+}
+
+body{
+    background: #f9fcd2;
+}
