@@ -1,2 +1,0 @@
-# mycol
-College website
