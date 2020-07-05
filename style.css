@@ -202,9 +202,10 @@ body {
   .jumbotron {
     position:relative;
     overflow:hidden;
+    height: 350px;
   }
   
-  .jumbotron .container {
+/*   .jumbotron .container {
     position:relative;
     z-index:2;
     
@@ -230,7 +231,7 @@ body {
       filter: blur(4px);
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
   
-  }
+  } */
   .footer{
     background-color: #d9d9d9;
     padding: 20px 0px 10px 0px;
