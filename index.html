@@ -1,0 +1,375 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type='text/css' href='style.css'> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>MyCol</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Playfair+Display&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">MyCol</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i>
+                 Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="aboutus.html"><i class="fa fa-info" aria-hidden="true"></i>
+                 About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                   Top-Colleges
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="sies.html">S.I.E.S</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="terna.html">TERNA</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="rait.html">R.A.I.T</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="pillai.html">PILLAI</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="agnel.html">FR.AGNEL</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="FEEDBACK.HTML"><i class="fa fa-comment" aria-hidden="true"></i>
+                     Feedback</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0"  type="submit">Search</button>
+            </form>
+            <span class="navbar-text">
+              <a id="login">
+                  <span class="fa fa-sign-in"></span> Login
+              </a>
+          </span>
+        </div>
+        
+    </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg" role="content">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="form-row">
+                          <div class="form-group col-sm-4">
+                                  <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                  <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                          </div>
+                          <div class="form-group col-sm-4">
+                              <label class="sr-only" for="exampleInputPassword3">Password</label>
+                              <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                          </div>
+                          <div class="col-sm-auto">
+                              <div class="form-check">
+                                  <input class="form-check-input" type="checkbox">
+                                  <label class="form-check-label"> Remember me
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                          <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>  
+
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="jumbotron jumbotron-fluid bg-dark">
+        <div class="jumbotron-background">
+          <img src="grad2.jpg" class="blur" width="100%">
+        </div>
+      
+        <div class="container text-white">
+      
+          <h1 class="display-4">Welcome to MyCol!!</h1>
+          <p class="lead">We provide the best guidance on Top-Colleges in the Engineering field. Consider us your guide to the journey of your career!</p>
+          <hr class="my-4">
+          <p>Feeling stuck were to begin? Click on the below button it will guide you to the process.</p>
+          <a class="btn btn-primary btn-lg" href="#college-guide" role="button">College guide</a>
+      
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h3 class="row-header col-12">About Us</h3>
+                <hr>
+                <p class="lead">All parents be rich or poor, urban or rural would certainly be willing to make extraordinary sacrifices to provide quality education for their children. However, there is an equally important need to ensure that their children's educational aspirations would not be cheated or misguided.</p>
+                <p class="lead">So we here at MyCol help the young minds in guiding them through their journey of Engineeringand help them develop their career skills for a successful future.</p>
+            </div>
+        </div>
+        <div  id="college-guide">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h3 class="row-header col-12">College guide:</h3>
+                    <hr>
+                    <div class="row-content">
+                        <h3 class="row-header col-12">1. College Planning:</h3>
+                        <p class="lead">Your path to college begins your first year in high school as you make yourself college ready. Grades and test scores are important factors in college admission, but admissions officers are also looking for curious and engaged candidates who will round out a diverse first-year class.</p>
+                        <h3 class="row-header col-12">2. College Search</h3>
+                        <p class="lead">No two students are exactly alike, and no two schools are exactly alike. What are the features of your best fit college ?</p>
+                        <ul>
+                            <li>Conversations with your college counselor about what’s important to you in terms of academics, campus culture, and financial aid will help guide your overall college search.</li>
+                            <li>Research is a must. Attend college fairs, consult our college profiles , and visit campuses to find and compare potential schools. Check out majors, dorms, clubs, career services, and other key features.</li>
+                            <li>You’ll end up with a list of dream, match, and safety schools —any of which i s a great fit for your specific personality and interests .</li>
+                            <li>How many colleges do students apply to? According to our 2018 College Hopes & Worries Survey, 40% of students plan to apply to 5-8 schools, while 30% will apply to 9 or more colleges.</li>
+                        </ul>
+                        <h3 class="row-header col-12">3. College Applications</h3>
+                        <p class="lead">When it comes time to apply, you’ll have some decisions to make</p>
+                        <ul>
+                            <li>Will you apply early? Many colleges allow applicants to submit their materials for an early deadline (sometime in the fall) that falls before the regular deadline (usually sometime in January or February). Learn about early action vs early decision .</li>
+                            <li>The key components of the college application are your transcript, score reports, letters of recommendation, and application essay. Colleges will also ask you to list your extracurricular activities. Learn everything you need to know about college application .</li>
+                            <li>Always check admissions requirements with each individual school. Schools may have different requirements regarding number of SAT Subject Tests or whether they require you to take the SAT or ACT essay.</li>
+                            <li>The Common Application makes it easy to apply to multiple schools, but schools will typically have different supplemental essay topics or test score requirements.</li>
+                        <li>You may decide to interview with an admissions representative or college alumni member to learn more about schools—and to help schools learn more about you.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div >
+        <div class="row row-content">
+            <div class="col">
+                <h3 class="row-header col-12">Engineering Related News:</h3>
+                <!--Carousel Wrapper-->
+                <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                    
+                    <!--Controls-->
+                    <div class="controls-top">
+                        <!-- <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                                class="fas fa-chevron-right"></i></a> -->
+                                <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </div>
+                                <!--/.Controls-->
+                                
+                                <!--Indicators-->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                                    
+                                </ol>
+                    <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <button class="btn btn-danger btn-sm btn-1" type="button" id="carouselButton" title="click here to pause">
+                        <span class="fa fa-pause"></span>
+                    </button>
+                    <!--/.Indicators-->
+                    
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                        
+                        <!--First slide-->
+                        <div class="carousel-item active">
+                            
+                            <div class="col-md-3" style="float:left">
+                                <div class="card mb-2">
+                                    <img class="card-img-top"
+                            src="jeemains1.jpg" alt="Card image cap" height="150px">
+                            <div class="card-body">
+                                <h4 class="card-title">NEET, JEE exams postponed, NSUI welcomes Centre’s decision</h4>
+                                <p class="card-text">By:Hindustan Times</p>
+                                <a class="btn btn-primary text-white" href="https://hindustantimes.com/education/neet-jee-exams-postponed-nsui-welcomes-centre-s-decision/story-gsIPAHvQp2HndIcRZgpj9I.html">
+                                    Learn more</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3" style="float:left">
+                            <div class="card mb-2">
+                                <img class="card-img-top"
+                                src="jeemains.webp" alt="Card image cap" height="150px">
+                                <div class="card-body">
+                                    <h4 class="card-title">JEE Main, NEET 2020: NTA to reopen application edit window</h4>
+                                    <p class="card-text">By:<em>The Indian</em> Express</p>
+                                    <a class="btn btn-primary text-white" href="https://indianexpress.com/article/education/neet-2020-jee-main-news-admit-card-result-date-application-form-edit-exam-centre-ntaneet-ac-in-6488885/">
+                                        Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3" style="float:left">
+                                <div class="card mb-2">
+                                    <img class="card-img-top"
+                                    src="mpsc.jpg" alt="Card image cap" height="150px">
+                                    <div class="card-body">
+                                        <h4 class="card-title">MPSC Civil Engg Final Answer Key 2019 released: Check-Out</h4>
+                                        <p class="card-text">By: The Times of India</p>
+                                        <a class="btn btn-primary text-white" href="https://timesofindia.indiatimes.com/home/education/news/mpsc-civil-engg-final-answer-key-2019-released/articleshow/76337686.cms">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3" style="float:left">
+                                <div class="card mb-2">
+                                    <img class="card-img-top"
+                                    src="etake.jpg" alt="Card image cap" height="150px">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Engineering intake: E-registration from July 9</h4>
+                                        <p class="card-text">By: The Times of India</p>
+                                        <a class="btn btn-primary text-white" href="https://timesofindia.indiatimes.com/city/ahmedabad/engineering-intake-e-registration-from-july-9/articleshow/76719499.cms">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!--/.First slide-->
+                        
+                        <!--Second slide-->
+                        <div class="carousel-item">
+                            
+                            <div class="col-md-3" style="float:left">
+                                <div class="card mb-2">
+                                    <img class="card-img-top"
+                                    src="cet.webp" alt="Card image cap" height="150px">
+                                    <div class="card-body">
+                                        <h4 class="card-title">MHT CET 2020 postponed till further notice as per Govt</h4>
+                                        <p class="card-text">By: The Times of India</p>
+                                        <a class="btn btn-primary text-white" href="https://timesofindia.indiatimes.com/home/education/news/mht-cet-2020-postponed-till-further-notice/articleshow/75493263.cms">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3" style="float:left">
+                                <div class="card mb-2">
+                                    <img class="card-img-top"
+                                    src="exams.jpg" alt="Card image cap" height="150px">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Popular national-level engineering entrance exams & elig ..</h4>
+                            <p class="card-text">By: The Times of India</p>
+                            <a class="btn btn-primary text-white" href="https://timesofindia.indiatimes.com/home/education/news/popular-national-level-engineering-entrance-exams-eligibility/articleshow/75291705.cms">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                        src="final.webp" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h4 class="card-title">Maharashtra: Final-year exams optional; decision on engineer..</h4>
+                            <p class="card-text">By: The Times of India</p>
+                            <a class="btn btn-primary text-white" href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-final-year-exams-optional-decision-on-engineering-law-later/articleshow/76474810.cms">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                        src="viva.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h4 class="card-title">Mumbai University conducts first online viva for an engineer ..</h4>
+                            <p class="card-text">By: The Times of India</p>
+                            <a class="btn btn-primary text-white" href="https://timesofindia.indiatimes.com/home/education/news/mumbai-university-conducts-first-online-viva-for-an-engineering-student-more-to-follow/articleshow/76055071.cms">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!--/.Second slide-->
+            
+            
+                
+        </div>
+        <!--/.Slides-->
+        
+    </div>
+    <!--/.Carousel Wrapper-->
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+      <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="FEEDBACK.HTML">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        8175, West Briarwood Ave.<br>
+                        Metairie,<br> 
+                        LA-70001.<br>
+		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                      <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:varunshinde.10601@gmail.com">mycol.net</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <h6>Connect with us!</h6><br>
+                        |<a class="btn btn-social-icon btn-google" href="http://google.com/"><i class="fa fa-google-plus fa-lg"></i></a>|
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+                        </a>|
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>|
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>|
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-envelope fa-lg"></i></a>|
+                        <a class="btn btn-social-icon" href="mailto:"></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 MyCol</p>
+                </div>
+           </div>
+
+        </div>
+      </footer>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+</html>
